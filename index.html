@@ -11,6 +11,8 @@
     <meta name="author" content="BugBusters">
     <!--Palabras clave relevantes para la plataforma-->
     <meta name="keywords" content="servicios profesionales, red social, habilidades, proveedores de servicios">
+    <!-- enlace para iconos fontawesome -->
+    <script src="https://kit.fontawesome.com/ba93ad85e8.js" crossorigin="anonymous"></script>
 
     <!--Especificamos el título de proyecto web-->
     <title>Papelito.com</title>
@@ -19,26 +21,27 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body id="body">
+<body class="body">
 
     <!--Header-->
-    <header class="header">
+    <header class="hero">
         <!--Contenedor logo y menú-->
-        <div class="header__container">
+        <nav class="nav__hero">
             <!--Logo-->
-            <img class="header__container__logo" src="img/logo.png" alt="Logo">
+            <div class="container nav__container">
+                <div class="logo">
+                    <h2 class="logo__name"><span class="span">Papelito</span>.com</h2>  
+                </div>
             <!--Menú-->
-            <nav class="header__container__nav">
-                <ul class="header__container__nav__links">
-                    <li><a href="#" class="link">Home</a></li>
-                    <li><a href="html/explore.html" class="link">Explore</a></li>
-                    <li><a href="html/saved.html" class="link">Saved</a></li>
-                    <li><a href="html/profile.html" class="link">Profile</a></li>
-                    <li><a href="html/history.html" class="link">History</a></li>
-                    <li><a href="html/history.html" class="link">Plans</a></li>
-                    <li><a href="html/about.html" class="link">About</a></li>
-                </ul>
-            </nav>
+                <div class="links">
+                        <a href="#" class="link">inicio</a></li>
+                        <a href="html/explore.html" class="link">sobre nosotros</a>
+                        <a href="html/saved.html" class="link">productos</a>
+                        <a href="#" class="fas fa-cart-shopping link--icon"></a>
+                        <a href="#" target="_blank" class="link--active">contacto</a>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <!--Main-->
