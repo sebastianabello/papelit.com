@@ -14,8 +14,13 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: auto;
 }
 
 .container {
@@ -28,18 +33,13 @@ body {
     align-items: center;
 }
 
-.hero {
-    width: 100%;
-    min-height: 100vh;
-    background: #d6e1e0;
-}
-
-.nav__hero {
-    color: #fff;
-    background-color: #343539;
+.header__nav {
+    color: var(--color-fondo);
+    background-color: var(--color-header);
     height: 70px;
     border-bottom: #f2f2f2;
 }
+
 .nav__container {
     display: flex;
     align-items: center;
