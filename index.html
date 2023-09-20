@@ -18,7 +18,8 @@
     <title>Papelito.com</title>
     
     <!--Link a la hoja de estilos-->
-    <link rel="stylesheet" href="css/style.css">
+<!--     <link rel="stylesheet" href="css/style.css"> -->
+<link rel="stylesheet" href="css/footer.css"
 
 </head>
 <body class="body">
@@ -35,10 +36,10 @@
             <!--Menú-->
                 <div class="links">
                         <a href="#" class="link">inicio</a></li>
-                        <a href="html/explore.html" class="link">sobre nosotros</a>
-                        <a href="html/saved.html" class="link">productos</a>
+                        <a href="#" class="link">sobre nosotros</a>
+                        <a href="#" class="link">productos</a>
                         <a href="#" class="fas fa-cart-shopping link--icon"></a>
-                        <a href="#" target="_blank" class="link--active">contacto</a>
+                        <a href="#contacto" target="_blank" class="link--active">contacto</a>
                 </div>
             </div>
         </nav>
@@ -59,19 +60,55 @@
             <!--Imagen-->
             <img class="main__container__img" src="" alt="img">
         </div>
+
+        <!-- contacto -->
+        <section class="contenedor--contacto" id="contacto">
+            <div class="content__contacto">
+                <h2 class="content__contacto titulo">CONTACTO</h2>
+                <p class="parrafo--contacto">Contactanos para asistirte en tu compra</p>
+            </div>
+
+            <div class="contenedor__forcont">
+
+            <div class="content__form">
+                <form action="#" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input type="email" name="correo" placeholder="correo">
+                    <textarea name="Message" placeholder="Escribe tu consulta"></textarea>
+                    <button class="content__form button" type="submit">enviar</button>
+                </form>                
+            </div>
+            
+            <div class="contact-info">
+                <ul>
+                    <li><i class="fas fa-map-marker-alt link--icon"></i> Bogota</li>
+                    <li><i class="fas fa-phone link--icon"></i> 312-850-4935</li>
+                    <li><i class="fas fa-envelope link--icon"></i> support@papelito.com</li>
+                </ul>                                          
+            </div>
+
+            <div class="content_localiza">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39472229092!2d-74.27262319402678!3d4.648620639644194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2sBogot%C3%A1%2C%20Colombia!5e0!3m2!1ses-419!2sus!4v1695242332667!5m2!1ses-419!2sus" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+            <div class="redes">
+                <div class="redes_sociales">
+                    <a href="#" class="fa-brands fa-instagram link--icon2"></a>
+                    <a href="#" class="fa-brands fa-facebook link--icon2"></a>
+                    <a href="#" class="fa-brands fa-whatsapp link--icon2"></a>
+                </div>
+            </div>
+        </section>
+
     </main>
    
     <!--Footer-->
     <footer class="footer">
-        <!--Contenedor-->
-        <div class="footer__container">
-            <!--Logo-->
-            <img class="footer__container__logo" src="img/logo.png" alt="Logo">
-            <!--Redes sociales-->
-            <div class="footer__container__social">
-                <a href="#" class="footer__container__social__link"><img src="img/facebook.png" alt="Facebook"></a>
-                <a href="#" class="footer__container__social__link"><img src="img/twitter.png" alt="Twitter"></a>
-                <a href="#" class="footer__container__social__link"><img src="img/instagram.png" alt="Instagram"></a>
+        <div class="container__footer">
+            <div class="text--footer">
+                <i class='fas fa-copyright'></i>
+                <h3>  All rights reserved |<span class="span"> Papelito</span>.com</h3>
             </div>
         </div>
     </footer>
