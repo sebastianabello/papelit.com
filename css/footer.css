@@ -177,6 +177,9 @@ a.link--active:hover {
     font-size: 30px;
 }
 
+
+
+
 .footer {
     width: 100vw;
     height: 65px;
@@ -195,7 +198,6 @@ a.link--active:hover {
 .text--footer {
     display: flex;
     width: 100%;
-
 }
 
 
