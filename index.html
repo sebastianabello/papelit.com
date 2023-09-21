@@ -39,6 +39,7 @@
                     <a href="#" class="link">sobre nosotros</a>
                     <a href="#" class="link">productos</a>
                     <a href="#" class="fas fa-cart-shopping link--icon"></a>
+                    <span id="contador-carrito">0</span>
                     <a href="#contacto" target="_blank" class="link--active">contacto</a>
                 </div>
             </div>
@@ -88,9 +89,8 @@
                             <div class="card__subtitle">Acrilicas.</div>
                             <hr class="card-divider">
                             <div class="card__footer">
-                                <div class="card__price">$5.000</div>
-                                <button class="card__footer button__footer">+
-                                </button>
+                                <div class="card__price">$5000</div>
+                                <button class="card__footer button__footer">+</button>
                             </div>
                         </article>
                         <article class="card">
@@ -224,13 +224,19 @@
                                 </button>
                             </div>
                         </article>
+                        <div class="carrito">
+                            <h2>Carrito de Compras</h2>
+                            <ul class="lista-carrito">
+                                <!-- Aquí se mostrarán los productos agregados al carrito -->
+                            </ul>
+                            <p>Total: <span class="total">$0.00</span></p>
+                        </div>
                     </div>
                 </section>
             </section>
 
 
             <!--Cards-->
-            
         
           
         </article>
@@ -288,4 +294,5 @@
     </footer> -->
 
 </body>
+<script src="js/script.js"></script>
 </html>
